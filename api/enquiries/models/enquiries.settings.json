@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "enquiries",
+  "info": {
+    "name": "enquiries"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "biginteger"
+    },
+    "message": {
+      "type": "text"
+    },
+    "hotel": {
+      "type": "string"
+    },
+    "guests": {
+      "type": "integer"
+    },
+    "checkIn": {
+      "type": "date"
+    },
+    "checkOut": {
+      "type": "date"
+    },
+    "rooms": {
+      "type": "json"
+    },
+    "subtotal": {
+      "type": "float"
+    }
+  }
+}
